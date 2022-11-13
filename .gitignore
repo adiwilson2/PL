@@ -8,7 +8,7 @@
 [Ll]ocal
 [Ss]cripts
 pyvenv.cfg
-.idea
+.idea/
 /.DS_Store
 .venv
 __pycache__/
