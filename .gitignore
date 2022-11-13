@@ -11,4 +11,5 @@ pyvenv.cfg
 .idea
 /.DS_Store
 .venv
+__pycache__/
 pip-selfcheck.json
