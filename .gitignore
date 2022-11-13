@@ -9,6 +9,6 @@
 [Ss]cripts
 pyvenv.cfg
 .idea
-.DS_Store
+/.DS_Store
 .venv
 pip-selfcheck.json
