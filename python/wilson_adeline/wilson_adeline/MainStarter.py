@@ -125,7 +125,7 @@ def main():
         elif choice == -1:
             print("TODO")
 
-        elif choice == 0 or '0':
+        elif choice == 0:
             choice = 0
         else:
             print("Input an option in the range 0-7")
