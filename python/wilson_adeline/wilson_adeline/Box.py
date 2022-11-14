@@ -7,3 +7,7 @@ class Box:
         self.units = 0
         self.serial_number = Box.serial_counter
         Box.serial_counter += 1
+
+    def __str__(self):
+        pass
+

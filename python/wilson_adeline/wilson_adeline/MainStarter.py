@@ -55,9 +55,19 @@ Bad input handled 								not done
 
 ** This tier has 3 tests associated with it. 9A tests all belt/station orderings. 9B tests all combinations of packaging and fill. 9C tests error checking.
 """
-import Conveyer as conveyer
-import Belt as belt
-import Section as section
+from Conveyer import Conveyer
+import Belt
+import Section
+
+menu = "\n" \
+       "1) Add Default Box\n" \
+       "2) Move Belt One Time Unit\n" \
+       "3) Move Belt X Time Units\n" \
+       "4) Show Station Details\n" \
+       "5) Add Box\n" \
+       "6) Make Tester Conveyer Belt\n" \
+       "7) Make New Conveyer Belt\n" \
+       "0) Quit\n"
 
 
 def cleanInput(prompt):
@@ -70,16 +80,8 @@ def cleanInput(prompt):
 
 
 def main():
-    menu = "\n" \
-           "1) Add Default Box\n" \
-           "2) Move Belt One Time Unit\n" \
-           "3) Move Belt X Time Units\n" \
-           "4) Show Station Details\n" \
-           "5) Add Box\n" \
-           "6) Make Tester Conveyer Belt\n" \
-           "7) Make New Conveyer Belt\n" \
-           "0) Quit\n"
-
+    conveyer = Conveyer()
+    conveyer.default_setup()
     choice = -1
 
     while choice != 0:
@@ -89,13 +91,13 @@ def main():
             choice = cleanInput("Choice:> ")
             choice = int(choice)
             if choice < 0 or choice > 7:
-                print("Input an option in the range 0-7")
+                print("Input an option1 in the range 0-7")
         except:
             print("Please, input a positive integer")
 
         # add default box
         if choice == 1:
-            print(conveyer.default_setup)
+            print(conveyer)
 
         # update one time
         elif choice == 2:

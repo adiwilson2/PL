@@ -2,6 +2,7 @@ from wilson_adeline.Section import Section
 
 
 class Station(Section):
-    pass
+    def __init__(self):
+        self.station = None
 
 

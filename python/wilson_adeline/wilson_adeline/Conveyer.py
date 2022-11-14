@@ -15,11 +15,10 @@ class Conveyer:
         self.sections = default_conveyer
 
     def __str__(self):
+        system = ''
         for section in self.sections:
             if isinstance(section, Belt):
-                print('----' * section.length)
+                system += '----' * section.length
             elif isinstance(section, Station):
-                print('XXXX')
-
-
-
+                system += 'XXXX'
+        return system
