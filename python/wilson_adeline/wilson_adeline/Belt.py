@@ -1,10 +1,11 @@
-from wilson_adeline.Section import Section
 
+class Belt():
 
-class Belt(Section):
+    def __init__(self):
+        self.box = None
+        pass
 
-    def __init__(self, length=1):
-        super().__init__()
-        self.length = length
-
+    def __str__(self):
+        if self.box is None:
+            return '----'
 

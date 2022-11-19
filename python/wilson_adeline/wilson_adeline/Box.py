@@ -9,5 +9,8 @@ class Box:
         Box.serial_counter += 1
 
     def __str__(self):
-        pass
+        return f"{self.serial_number}\n{self.num_of_units}"
+
+
+
 

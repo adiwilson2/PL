@@ -1,8 +1,9 @@
-from wilson_adeline.Section import Section
 
-
-class Station(Section):
+class Station():
     def __init__(self):
-        self.station = None
+        self.box = None
+        pass
 
-
+    def __str__(self):
+        if self.box is None:
+            return 'XXXX'
