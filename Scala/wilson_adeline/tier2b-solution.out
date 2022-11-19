@@ -10,7 +10,7 @@
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> What recipe:>
+Choice:> What recipe:> 
 What ingredient (mix, baked, remeasure, single):> Name:> Calories:> Cups:> Added single
 
 1) Add Data
@@ -24,8 +24,8 @@ What ingredient (mix, baked, remeasure, single):> Name:> Calories:> Cups:> Added
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> What recipe:>
-What ingredient (mix, baked, remeasure, single):> New Quantity:>
+Choice:> What recipe:> 
+What ingredient (mix, baked, remeasure, single):> New Quantity:> 
 What ingredient (mix, baked, remeasure, single):> Name:> Calories:> Cups:> Added single
 Added remeasure
 
@@ -40,8 +40,8 @@ Added remeasure
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> What recipe:>
-What ingredient (mix, baked, remeasure, single):> Name:> Expansion Factor:>
+Choice:> What recipe:> 
+What ingredient (mix, baked, remeasure, single):> Name:> Expansion Factor:> 
 What ingredient (mix, baked, remeasure, single):> Name:> Calories:> Cups:> Added single
 Added baked
 
@@ -56,10 +56,10 @@ Added baked
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> What recipe:>
-What ingredient (mix, baked, remeasure, single):> Name:>
+Choice:> What recipe:> 
+What ingredient (mix, baked, remeasure, single):> Name:> 
 What ingredient (mix, baked, remeasure, single):> Name:> Calories:> Cups:> Added single
-Add another ingredient (y/n):>
+Add another ingredient (y/n):> 
 What ingredient (mix, baked, remeasure, single):> Name:> Calories:> Cups:> Added single
 Add another ingredient (y/n):> Added mix
 
@@ -74,14 +74,14 @@ Add another ingredient (y/n):> Added mix
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> What recipe:>
-What ingredient (mix, baked, remeasure, single):> Name:> Expansion Factor:>
-What ingredient (mix, baked, remeasure, single):> Name:>
+Choice:> What recipe:> 
+What ingredient (mix, baked, remeasure, single):> Name:> Expansion Factor:> 
+What ingredient (mix, baked, remeasure, single):> Name:> 
 What ingredient (mix, baked, remeasure, single):> Name:> Calories:> Cups:> Added single
-Add another ingredient (y/n):>
+Add another ingredient (y/n):> 
 What ingredient (mix, baked, remeasure, single):> Name:> Calories:> Cups:> Added single
-Add another ingredient (y/n):>
-What ingredient (mix, baked, remeasure, single):> New Quantity:>
+Add another ingredient (y/n):> 
+What ingredient (mix, baked, remeasure, single):> New Quantity:> 
 What ingredient (mix, baked, remeasure, single):> Name:> Calories:> Cups:> Added single
 Added remeasure
 Add another ingredient (y/n):> Added mix
@@ -98,14 +98,14 @@ Added baked
 9) Calculate Calorie Density
 0) Quit
 
-Choice:>
-Recipe: Milk
+Choice:> 
+Recipe: Milk 
 ==================================
   ______Milk______
   Cups: 1
   Calories: 103
 
-Recipe: Pint of milk
+Recipe: Pint of milk 
 ==================================
 
   Remeasure to 2.0 cups
@@ -113,7 +113,7 @@ Recipe: Pint of milk
     Cups: 1
     Calories: 103
 
-Recipe: Condensed milk
+Recipe: Condensed milk 
 ==================================
 
   Simmered (0.25)
@@ -121,29 +121,29 @@ Recipe: Condensed milk
     Cups: 1
     Calories: 103
 
-Recipe: Half and half
+Recipe: Half and half 
 ==================================
-  Blend
+  Blend 
   *****************************
     ______Milk______
-    Cups: 1
+    Cups: 0.5
     Calories: 103
     ______Cream______
-    Cups: 1
+    Cups: 0.5
     Calories: 490
   *****************************
 
-Recipe: Shortbread
+Recipe: Shortbread 
 ==================================
 
   Cookie (1.5)
-    Dough
+    Dough 
     *****************************
       ______Butter______
       Cups: 1
       Calories: 1628
       ______Flour______
-      Cups: 1
+      Cups: 1.25
       Calories: 455
 
       Remeasure to 0.75 cups
@@ -164,7 +164,7 @@ Recipe: Shortbread
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> File name:>
+Choice:> File name:> 
 1) Add Data
 2) Display Data
 3) Remove Recipe

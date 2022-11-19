@@ -22,7 +22,7 @@ Choice:> File name:>
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> What recipe:> Volume in Cups: 1
+Choice:> What recipe:> Calorie Count: 103
 
 1) Add Data
 2) Display Data
@@ -35,7 +35,7 @@ Choice:> What recipe:> Volume in Cups: 1
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> What recipe:> Volume in Cups: 2
+Choice:> What recipe:> Calorie Count: 206
 
 1) Add Data
 2) Display Data
@@ -48,7 +48,7 @@ Choice:> What recipe:> Volume in Cups: 2
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> What recipe:> Volume in Cups: 0.2
+Choice:> What recipe:> Calorie Count: 103
 
 1) Add Data
 2) Display Data
@@ -61,7 +61,7 @@ Choice:> What recipe:> Volume in Cups: 0.2
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> What recipe:> Volume in Cups: 1
+Choice:> What recipe:> Calorie Count: 593
 
 1) Add Data
 2) Display Data
@@ -74,7 +74,7 @@ Choice:> What recipe:> Volume in Cups: 1
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> What recipe:> Volume in Cups: 4.5
+Choice:> What recipe:> Calorie Count: 2662.8
 
 1) Add Data
 2) Display Data
@@ -87,12 +87,12 @@ Choice:> What recipe:> Volume in Cups: 4.5
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> What recipe:>
-What ingredient (mix, baked, remeasure, single):> Name:> Expansion Factor:>
-What ingredient (mix, baked, remeasure, single):> Name:>
+Choice:> What recipe:> 
+What ingredient (mix, baked, remeasure, single):> Name:> Expansion Factor:> 
+What ingredient (mix, baked, remeasure, single):> Name:> 
 What ingredient (mix, baked, remeasure, single):> Name:> Calories:> Cups:> Added single
-Add another ingredient (y/n):>
-What ingredient (mix, baked, remeasure, single):> New Quantity:>
+Add another ingredient (y/n):> 
+What ingredient (mix, baked, remeasure, single):> New Quantity:> 
 What ingredient (mix, baked, remeasure, single):> Name:> Calories:> Cups:> Added single
 Added remeasure
 Add another ingredient (y/n):> Added mix
@@ -109,7 +109,7 @@ Added baked
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> What recipe:> Volume in Cups: 3.9
+Choice:> What recipe:> Calorie Count: 455.2
 
 1) Add Data
 2) Display Data

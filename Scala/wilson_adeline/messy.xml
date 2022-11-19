@@ -15,7 +15,7 @@
     <baked>
       <mix name="soaked oats">
         <single calories="0">water</single>
-        <remeasure quanity="0.75">
+        <remeasure quantity="0.75">
           3/4 cup
           <single cups="1" calories="607.0" expiration="06/01/2025">sugar</single>
           <suace url="http://www.roostersriracha.com/">sriracha</suace>

@@ -1,4 +1,4 @@
-package wilson_adeline
+package rename
 
 import java.io.{FileInputStream, FileNotFoundException, IOException, PrintStream, PrintWriter}
 import java.nio.file.{Files, Paths}

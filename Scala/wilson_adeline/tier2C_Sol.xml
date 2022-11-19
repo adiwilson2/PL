@@ -41,7 +41,7 @@
       <baked expansion="2.2">
          <mix name="soaked oats">
             <single cups="1.0" calories="0.0">water</single>
-            <remeasure quantity="1.0">
+            <remeasure quantity="0.75">
                <single cups="1.0" calories="607.0">oats</single>
             </remeasure>
          </mix>

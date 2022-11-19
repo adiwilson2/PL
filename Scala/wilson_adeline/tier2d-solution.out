@@ -10,7 +10,7 @@
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> File name:>
+Choice:> File name:> 
 1) Add Data
 2) Display Data
 3) Remove Recipe
@@ -22,14 +22,14 @@ Choice:> File name:>
 9) Calculate Calorie Density
 0) Quit
 
-Choice:>
-Recipe: Milk
+Choice:> 
+Recipe: Milk 
 ==================================
   ______Milk______
   Cups: 1
   Calories: 103
 
-Recipe: Pint of milk
+Recipe: Pint of milk 
 ==================================
 
   Remeasure to 2.0 cups
@@ -37,7 +37,7 @@ Recipe: Pint of milk
     Cups: 1
     Calories: 103
 
-Recipe: Condensed milk
+Recipe: Condensed milk 
 ==================================
 
   Simmered (0.25)
@@ -45,43 +45,43 @@ Recipe: Condensed milk
     Cups: 1
     Calories: 103
 
-Recipe: Half and half
+Recipe: Half and half 
 ==================================
-  Blend
+  Blend 
   *****************************
     ______Milk______
-    Cups: 1
+    Cups: 0.5
     Calories: 103
     ______Cream______
-    Cups: 1
+    Cups: 0.5
     Calories: 490
   *****************************
 
-Recipe: Sweetened condensed milk
+Recipe: Sweetened condensed milk 
 ==================================
 
   Simmered (0.25)
-    Blend
+    Blend 
     *****************************
       ______Milk______
-      Cups: 1
+      Cups: 0.5
       Calories: 103
       ______Sugar______
-      Cups: 0
+      Cups: 0.12
       Calories: 96
     *****************************
 
-Recipe: Shortbread
+Recipe: Shortbread 
 ==================================
 
   Baked Dough (1.5)
-    Dough
+    Dough 
     *****************************
       ______Butter______
       Cups: 1
       Calories: 1628
       ______Flour______
-      Cups: 1
+      Cups: 1.25
       Calories: 455
 
       Remeasure to 0.75 cups
@@ -102,7 +102,7 @@ Recipe: Shortbread
 9) Calculate Calorie Density
 0) Quit
 
-Choice:> File name:>
+Choice:> File name:> 
 1) Add Data
 2) Display Data
 3) Remove Recipe
@@ -114,14 +114,14 @@ Choice:> File name:>
 9) Calculate Calorie Density
 0) Quit
 
-Choice:>
-Recipe: Milk
+Choice:> 
+Recipe: Milk 
 ==================================
   ______Milk______
   Cups: 1
   Calories: 103
 
-Recipe: Pint of milk
+Recipe: Pint of milk 
 ==================================
 
   Remeasure to 2.0 cups
@@ -129,7 +129,7 @@ Recipe: Pint of milk
     Cups: 1
     Calories: 103
 
-Recipe: Condensed milk
+Recipe: Condensed milk 
 ==================================
 
   Simmered (0.25)
@@ -137,43 +137,43 @@ Recipe: Condensed milk
     Cups: 1
     Calories: 103
 
-Recipe: Half and half
+Recipe: Half and half 
 ==================================
-  Blend
+  Blend 
   *****************************
     ______Milk______
-    Cups: 1
+    Cups: 0.5
     Calories: 103
     ______Cream______
-    Cups: 1
+    Cups: 0.5
     Calories: 490
   *****************************
 
-Recipe: Sweetened condensed milk
+Recipe: Sweetened condensed milk 
 ==================================
 
   Simmered (0.25)
-    Blend
+    Blend 
     *****************************
       ______Milk______
-      Cups: 1
+      Cups: 0.5
       Calories: 103
       ______Sugar______
-      Cups: 0
+      Cups: 0.12
       Calories: 96
     *****************************
 
-Recipe: Shortbread
+Recipe: Shortbread 
 ==================================
 
   Baked Dough (1.5)
-    Dough
+    Dough 
     *****************************
       ______Butter______
       Cups: 1
       Calories: 1628
       ______Flour______
-      Cups: 1
+      Cups: 1.25
       Calories: 455
 
       Remeasure to 0.75 cups
@@ -182,17 +182,17 @@ Recipe: Shortbread
         Calories: 773
     *****************************
 
-Recipe: Oatmeal
+Recipe: Oatmeal 
 ==================================
 
   Baked Soaked oats (2.2)
-    Soaked oats
+    Soaked oats 
     *****************************
       ______Water______
       Cups: 1
       Calories: 0
 
-      Remeasure to 1.0 cups
+      Remeasure to 0.75 cups
         ______Oats______
         Cups: 1
         Calories: 607
@@ -210,4 +210,4 @@ Recipe: Oatmeal
 9) Calculate Calorie Density
 0) Quit
 
-Choice:>
+Choice:> 
