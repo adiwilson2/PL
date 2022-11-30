@@ -1,4 +1,4 @@
-package rename
+package wilson_adeline
 
 import scala.collection.mutable
 import scala.xml._
