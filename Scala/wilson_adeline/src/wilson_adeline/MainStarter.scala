@@ -102,7 +102,7 @@ object MainStarter {
                     //GRADING: ADD
                     case 1 => data.addData()
                     //GRADING: PRINT
-                    case 2 => println(data.displayData())
+                    case 2 => print(data.displayData())
                     // case 3 => data.removeData()
                     //GRADING: READ
                    //  case 4 => data.loadXML()

@@ -5,18 +5,9 @@ import java.io.FileWriter
 import scala.xml.XML
 
 
- class Ingredient {
+abstract class Ingredient() {
 
-  val recipes = new ArrayBuffer[String]()
+  def addData(ingredients: ArrayBuffer[Ingredient]): Unit
 
-  def addData(): Unit = {
-    println("What ingredient (mix, baked, remeasure, single):> ")
-
-  }
-
-  //def displayData(): String
-
-  //def addData(): Unit
-
-
+  def displayData(offset : String ): String
 }

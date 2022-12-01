@@ -1,26 +1,52 @@
 package wilson_adeline
 
+import java.text.DecimalFormat
 import scala.collection.mutable
 import scala.xml.{Elem, Node, Text}
 import scala.io.StdIn
 import scala.collection.mutable.ArrayBuffer
 
-class Single {
+class Single() extends Ingredient() {
+ var cups: Double = 1
+ var calories: Double = 100
+ var singleName: String = ""
+ val format = new DecimalFormat("0.##")
 
-  def inputSingle(): Unit = {
-    val ingredientList = new ArrayBuffer[String]()
-
+  def addData(ingredients: ArrayBuffer[Ingredient]) = {
     printf("Name:> ")
-    val singleName = io.StdIn.readLine()
+    singleName  = io.StdIn.readLine()
 
     println("Calories:> " )
-    val calories = io.StdIn.readLine()
+    calories = io.StdIn.readLine().toDouble
 
     println("Cups:> " )
-    val cups = io.StdIn.readLine()
-    ingredientList.append(singleName, calories, cups)
+    cups = io.StdIn.readLine().toDouble
 
     println("Added single")
-
+    ingredients.append(this)
   }
+
+
+  def displayData(offset : String) : String = {
+    var stringStuff : String = ""
+
+    stringStuff += offset
+    stringStuff += "______"
+    stringStuff += singleName
+    stringStuff += "______\n"
+
+    stringStuff += offset
+    stringStuff += "cups: "
+
+    stringStuff += format.format(cups)
+    stringStuff += "\n"
+
+    stringStuff += offset
+    stringStuff += "calories: "
+    stringStuff += format.format(calories)
+    stringStuff += "\n"
+    stringStuff
+  }
+
+
 }

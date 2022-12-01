@@ -1,19 +1,27 @@
 package wilson_adeline
 
 import scala.collection.mutable
+import scala.collection.mutable.ArrayBuffer
 import scala.xml.{Elem, Node, Text}
 import scala.io.StdIn
 
-class Mix {
+class Mix() extends Ingredient() {
 
-  def inputMix(): Unit = {
-    val recipe = new Recipe()
-    println("Name:> " )
-    val mixName = io.StdIn.readLine()
-
-
-
+  var mixName : String = ""
+  def addData(ingredients: ArrayBuffer[Ingredient]) = {
+    val recipe = new Recipe("")
+    return Mix()
   }
 
+  def displayData(offset : String) : String = {
+    var stringStuff : String = ""
+
+    stringStuff += offset
+    stringStuff += "("
+    stringStuff += mixName
+    stringStuff += ")"
+    stringStuff += "\n"
+    stringStuff
+  }
 
 }
